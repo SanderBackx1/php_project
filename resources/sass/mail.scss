@@ -1,0 +1,75 @@
+.selected {
+    background: #ccf;
+}
+
+.filterbox {
+    background: #eee;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 2px;
+    border: 1px solid #ccc
+}
+.filterbox-lg{
+    min-width: 40%;
+}
+
+#filterButtons {
+    width: 150px;
+    margin: auto;
+}
+
+#filterButtons p {
+    min-width: 50px;
+    max-width: 50px;
+    margin: auto;
+
+}
+
+#filterButtons .btn {
+    margin-bottom: 10px;
+    text-align: center;
+    min-width: 50px;
+    max-width: 50px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 100%;
+}
+#alumniButtons .btn {
+    margin-bottom: 10px;
+    text-align: center;
+    min-width: 50px;
+    max-width: 50px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 100%;
+}
+#alumniButtons p {
+    min-width: 50px;
+    max-width: 50px;
+    margin: auto;
+
+}
+
+
+#deleteAll {
+    color: #fff;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#fltChange {
+    color: #fff;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.filterItem {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.selectbox {
+    margin: 5px;
+}

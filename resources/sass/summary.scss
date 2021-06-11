@@ -1,0 +1,29 @@
+.summary{
+    background-color: $green;
+    padding: 20px;
+    border-radius: 25px;
+    color:$color;
+    margin: 20px;
+}
+
+.fade{
+    -webkit-animation: fadeout 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeout 1s; /* Firefox < 16 */
+     -ms-animation: fadeout 1s; /* Internet Explorer */
+      -o-animation: fadeout 1s; /* Opera < 12.1 */
+         animation: fadeout 1s;
+}
+
+@keyframes fadeout{
+    0%{
+        opacity: 100%;
+    }
+
+    50%{
+        opacity: 50%;
+    }
+
+    100%{
+        opacity: 0%;
+    }
+}
